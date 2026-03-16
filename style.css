@@ -520,6 +520,9 @@ em { font-family: 'Playfair Display', serif; font-style: italic; }
 
 .card-yellow { bottom: 40px; left: 0; background: var(--saffron); color: var(--white); }
 .card-pink { top: 30px; right: 0; background: var(--pink); color: var(--white); }
+.card-blue { top: 30px; right: 0; background: var(--blue); color: var(--white); }
+.card-green { top: 30px; right: 0; background: var(--green); color: var(--white); }
+.card-purple { top: 30px; right: 0; background: var(--purple); color: var(--white); }
 
 .about-text .section-title { margin-bottom: 20px; }
 
