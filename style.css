@@ -604,9 +604,9 @@ em { font-family: 'Playfair Display', serif; font-style: italic; }
 .card-purple .service-btn:hover { color: var(--purple); border-color: var(--purple); }
 
 .service-icon-img {
-  width: 72px;
-  height: 72px;
-  border-radius: 16px;
+  width: 90px;
+  height: 90px;
+  border-radius: 18px;
   overflow: hidden;
   margin-bottom: 20px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
