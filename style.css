@@ -518,7 +518,7 @@ em { font-family: 'Playfair Display', serif; font-style: italic; }
 
 .side-card i { font-size: 20px; }
 
-.card-yellow { bottom: 40px; left: 0; background: var(--saffron); color: var(--white); }
+.card-yellow { top: 30px; left: 0; background: var(--saffron); color: var(--white); }
 .card-pink { top: 30px; right: 0; background: var(--pink); color: var(--white); }
 .card-blue { top: 30px; right: 0; background: var(--blue); color: var(--white); }
 .card-green { top: 30px; right: 0; background: var(--green); color: var(--white); }
