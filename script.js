@@ -102,7 +102,7 @@ function sendWhatsApp() {
   message += `\nLooking forward to hearing from you! 📸`;
 
   // ⚠️ REPLACE the number below with your actual WhatsApp number (country code + number, no spaces/dashes)
-  const phoneNumber = '918296734545'; // e.g. '919876543210'
+  const phoneNumber = '917026018369'; // e.g. '919876543210'
   const encodedMsg = encodeURIComponent(message);
   const waURL = `https://wa.me/${phoneNumber}?text=${encodedMsg}`;
 
