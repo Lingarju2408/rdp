@@ -334,7 +334,7 @@ em { font-family: 'Playfair Display', serif; font-style: italic; }
 
 .hero-title {
   font-family: 'Bebas Neue', cursive;
-  font-size: clamp(52px, 7vw, 90px);
+  font-size: clamp(48px, 7vw, 90px);
   line-height: 1;
   color: var(--white);
   letter-spacing: 3px;
