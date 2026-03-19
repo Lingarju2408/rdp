@@ -1162,7 +1162,7 @@ em { font-family: 'Playfair Display', serif; font-style: italic; }
   .services-grid, .services-grid-3 { grid-template-columns: repeat(2, 1fr); }
   .hero { padding: 120px 40px 60px; }
 }
-  .main-card {top: 50%; left: 50%; } 
+  .main-card { top: 50%; left: 50%; transform: translate(-50%, -50%); } 
 
 @media (max-width: 900px) {
   .hero {
@@ -1175,14 +1175,27 @@ em { font-family: 'Playfair Display', serif; font-style: italic; }
   .hero-btns { justify-content: center; }
   .scroll-indicator { left: 32px; }
   .about-grid { grid-template-columns: 1fr; }
-  .about-visual { height: 250px; margin-bottom: 30px; }
+  .about-visual {
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-visual .side-card { display: none; }
+  .main-card {
+    position: relative;
+    top: auto; left: auto;
+    transform: none;
+    margin: 0 auto;
+  }
+  .main-card:hover { transform: translateY(-8px); }
   .refer-grid { grid-template-columns: 1fr; gap: 50px; }
   .contact-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .testi-grid { grid-template-columns: 1fr; }
   .testi-grid-wide { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
-   .main-card {top: 50%; left: 50%; }
 }
 
 @media (max-width: 768px) {
@@ -1209,12 +1222,10 @@ em { font-family: 'Playfair Display', serif; font-style: italic; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   .gallery-item.wide { grid-column: span 1; }
   .gallery-item.tall { grid-row: span 1; }
-  .main-card {top: 50%; left: 50%; }
 }
 
 @media (max-width: 480px) {
   .gallery-grid { grid-template-columns: 1fr 1fr; }
   .hero-stats { flex-wrap: wrap; justify-content: center; gap: 20px; }
   .stat-divider { display: none; }
-  .main-card {top: 50%; left: 50%; }
 }
